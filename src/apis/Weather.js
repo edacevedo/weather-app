@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = '27d951e20e32e0e452ca956320502cf2'
+const WEATHER_API_KEY = ''
 
 export const FindLatLonByName = (search) => {
 
