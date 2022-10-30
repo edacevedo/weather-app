@@ -1,0 +1,35 @@
+
+.cities-input {
+    min-width: 80%;
+    min-height: 3rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--text-color);
+    padding-left: 1rem;
+    color: #555;
+}
+
+.cities-input:focus-visible {
+    outline: 2px solid var(--text-color);
+}
+
+.cities-input:hover {
+    color: #111;
+}
+
+.cities-clear-btn {
+    position: relative;
+    margin: auto 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #111;
+    background-color: transparent;
+    text-decoration: underline;
+    left: -4rem;
+    top: 3rem;
+    border: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
